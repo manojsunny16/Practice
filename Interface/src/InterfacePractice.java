@@ -8,7 +8,7 @@ public class InterfacePractice {
         Shape[] shapes = {circle, rectangle, triangle};
 
 
-        System.out.println("Shapes:")
+        System.out.println("Shapes:");
         for (int i = 0; i < shapes.length; i++) {
             System.out.println("Shape " + (i + 1) + " Details:");
             shapes[i].displayDetails();
